@@ -1,0 +1,43 @@
+.table>:not(caption)>*>*{
+    padding: 1rem .5rem;
+}
+.pagination .active .page-link{
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+}
+.page-link {
+    color: #212529;
+    border: 1px solid #198754;
+    &:hover{
+        color: #fff;
+        background-color: #198754;
+        border-color: #198754;
+    }
+}
+.prev, .next{
+    padding: 6px 4px 0px;
+    color: #198754;
+}
+.addAdmin-btn:hover{
+    color: #198754;
+}
+.viewAdmin-photo{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+.btn-more, .btn-less{
+    &:hover{
+        color: #212529 !important;
+    }
+}
+.btn-less{
+    display: none;
+}
+.modal-header{
+    border-bottom: none;
+}
+.modal-footer{
+    border-top: none;
+}

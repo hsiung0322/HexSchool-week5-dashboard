@@ -1,0 +1,33 @@
+.group-btn{
+    margin: 0 -.75rem;
+}
+.icon-btn{
+    cursor: pointer;
+    padding: 0 .75rem;
+}
+.dropdown-toggle:hover{
+    color: #198754;
+}
+.assignment-group .active{
+    color: #212529;
+    border-color: rgba(0,0,0,.125);
+    background-color: #f8f9fa;
+}
+.assignment-item{
+    padding: 0.75rem;
+}
+.btn-light{
+    border: 1px solid #CED4DA;
+    padding: .75rem 1rem;
+}
+.reply-text{
+    resize: none;
+    border: none;
+    padding: 1rem 1.5rem;
+    &:focus-visible {
+        outline: none;
+    }
+}
+.card-reply{
+    display: none;
+}
