@@ -22,12 +22,12 @@ $(document).ready(function () {
   $('.btn-more').click(function () {
     $(this).hide();
     $('.btn-less').show();
-    $('.more-block').removeClass('d-none');
+    $('.more-block').addClass('active');
   });
   $('.btn-less').click(function () {
     $(this).hide();
     $('.btn-more').show();
-    $('.more-block').addClass('d-none');
+    $('.more-block').removeClass('active');
   });
 });
 //# sourceMappingURL=all.js.map

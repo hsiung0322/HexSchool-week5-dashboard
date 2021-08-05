@@ -284,6 +284,17 @@ body {
 .btn-more:hover, .btn-less:hover {
   color: #212529 !important; }
 
+.more-block {
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s; }
+
+.more-block.active {
+  margin-top: 32px;
+  max-height: 50px; }
+
 .btn-less {
   display: none; }
 
